@@ -1,3 +1,5 @@
+Meteor.subscribe('Hackers');
+
 Template.hackerList.helpers({
 
   'Hackers':function(){
