@@ -1,7 +1,7 @@
 Template.hackerList.helpers({
 
-  Hackers:function(){
-    return Template.instance().Hackers.get();
+  'Hackers':function(){
+    return Hackers.find();
   }
 
 });
