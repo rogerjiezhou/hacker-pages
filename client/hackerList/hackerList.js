@@ -1,6 +1,6 @@
 Template.hackerList.helpers({
 
-  'Hackers':function(){
+  'allHackers':function(){
     return Hackers.find();
   }
 
